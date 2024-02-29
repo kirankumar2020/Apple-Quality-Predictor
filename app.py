@@ -37,7 +37,7 @@ def apple_quality():
     return render_template("index.html")
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0",PORT_NUMBER = 8080,debug = False)
+    app.run(host="0.0.0.0",port=PORT_NUMBER,debug=False)
 
 
 
