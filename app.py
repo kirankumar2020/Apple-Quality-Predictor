@@ -2,6 +2,7 @@ from flask import Flask,request,render_template,url_for,jsonify
 import json
 import pickle
 from utils import get_apple_quality
+from config import PORT_NUMBER
 
 
 
@@ -36,7 +37,7 @@ def apple_quality():
     return render_template("index.html")
 
 if __name__ == "__main__":
-    app.run()
+    app.run(host="0.0.0.0",PORT_NUMBER = 8080,debug = False)
 
 
 
