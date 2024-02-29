@@ -25,14 +25,3 @@ def get_apple_quality(Size,Weight,Sweetness,Crunchiness,Juiciness,Ripeness,Acidi
         print("Quality of Apple is :", Apple_quality)
 
         return Apple_quality
-
-
-
-
-# Size = 0.05
-    # Weight = 1.68
-    # Sweetness = 1.71
-    # Crunchiness = 0.5
-    # Juiciness = 2.1
-    # Ripeness = 3.5
-    # Acidity = 1.4
